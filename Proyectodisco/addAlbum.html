@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar álbum</title>
+</head>
+<body>
+  
+    <div>
+        <h1>Nuevo Álbum</h1>
+        <form method="POST" action="AgregarAlbum">
+            <label> Título: <input type="text" name="album" placeholder="Álbum" required>
+                <br>
+                <label> Año de Lanzamiento: 
+                <input type="number" name="Año" placeholder="Año" required>
+                <br>
+                <label for= "Descripción">Descripción</label>
+                <br>
+                <textarea id="Descripción" rows="10" cols="40" placeholder="Añade una descripción" required></textarea>
+                <br>
+                <label for="imagen">Imagen (URL):</label>
+                <input type="url" id="imagen" name="imagen" placeholder="Ingrese la URL de la imagen" required>
+                    <label> <input type="submit">
+                 </form>
+    </div>
+
+</body>
+</html>

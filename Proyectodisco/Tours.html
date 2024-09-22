@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gira Ultraviolence - Lana Del Rey</title>
+    <script src="tours.js" defer></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+        }
+        .sidebar {
+            width: 250px;
+            background-color: #f0f0f0;
+            padding: 20px;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .sidebar h2 {
+            display: flex;
+            align-items: center;
+        }
+        .sidebar h2 img {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+        }
+        .sidebar div {
+            margin: 15px 0;
+        }
+        .sidebar a {
+            text-decoration: none;
+            color: #333;
+        }
+        .form-container {
+            margin-left: 20px;
+            flex-grow: 1;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 10px; /* Espaciado en mobile */
+            padding: 10px;
+        }
+        .tour-date {
+            margin: 10px 0;
+            padding: 15px;
+            background-color: #e0e0e0;
+            border-radius: 5px;
+            font-weight: bold; /* Bold en mobile */
+        }
+        .button {
+            margin-top: 10px;
+            padding: 10px 15px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="form-container">
+        <h1>Gira Ultraviolence</h1>
+        <h2>Fechas y Ciudades</h2>
+
+        <div class="grid">
+            <div class="tour-date">
+                <strong>Argentina</strong><br>
+                Fecha: 15 de octubre de 2024<br>
+                Ciudad: Buenos Aires<br>
+                <a href="#" class="button">Adquirir Tickets</a>
+            </div>
+
+            <div class="tour-date">
+                <strong>Brasil</strong><br>
+                Fecha: 20 de octubre de 2024<br>
+                Ciudad: São Paulo<br>
+                <a href="#" class="button">Adquirir Tickets</a>
+            </div>
+
+            <div class="tour-date">
+                <strong>Chile</strong><br>
+                Fecha: 25 de octubre de 2024<br>
+                Ciudad: Santiago<br>
+                <a href="#" class="button">Adquirir Tickets</a>
+            </div>
+
+            <div class="tour-date">
+                <strong>México</strong><br>
+                Fecha: 30 de octubre de 2024<br>
+                Ciudad: Ciudad de México<br>
+                <a href="#" class="button">Adquirir Tickets</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
